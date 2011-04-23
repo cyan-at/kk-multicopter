@@ -1,15 +1,23 @@
 #summary Transferring the firmware/configuration to the Ctrl board.
 
-= Introduction =
+= Summary =
+Please visit [http://lazyzero.de/en/modellbau/kkmulticopterflashtool kk flash tool] flashing tutorial.
+
+
+= Download Firmware =
 
 According to the firmware [http://www.kkmulticopter.com/index.php?option=com_content&view=category&id=58:firmware-downloads&Itemid=65&layout=default download] page of kk multicopter's web, there are total 12 firmwares available.
 
+Download the one you need.
 MCU of the black version is atmega168.
 
 
-= Details =
+= Download flash tool  =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+kkmulticopterflashtool is recommended
+Benefits :
+  * No need to set fuses
+  * Compatible with almost all USBASP
+  * Support Mac OSX, Linux and Windows
+
+[http://lazyzero.de/en/modellbau/kkmulticopterflashtool Download here]
