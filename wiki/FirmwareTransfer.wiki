@@ -2,7 +2,9 @@
 
 = Introduction =
 
-Add your content here.
+According to the firmware [http://www.kkmulticopter.com/index.php?option=com_content&view=category&id=58:firmware-downloads&Itemid=65&layout=default download] page of kk multicopter's web, there are total 12 firmwares available.
+
+MCU of the black version is atmega168.
 
 
 = Details =
