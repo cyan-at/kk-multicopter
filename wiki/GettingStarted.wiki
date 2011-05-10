@@ -1,0 +1,28 @@
+#summary start right now!
+
+= Introduction =
+
+Get the KKmulticontroller v5.5?
+then start to play with it by following this guide.
+
+= Before you start =
+
+Please understand that it takes time and efforts to complete the whole setting. Do not suspect your KK board is defective unless you have already did a number of serious tests.
+
+= What you need =
+  * 1 KKmulticontroller v5.5
+  * 1 Radio System(at least 4 channels)
+  * 4 ESC
+
+
+
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/ctrlboard.png" width=200 height=148 >
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/rec.jpg width=200 height=148 >
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/trans.jpg width=200 height=148 >
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
