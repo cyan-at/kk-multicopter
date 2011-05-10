@@ -49,7 +49,7 @@ Please understand that it takes time and efforts to complete the whole setting. 
 
 
 
-= FOR SAFETY, READ it =
+= *FOR SAFETY, READ it* =
   * DO NOT install blades unless setting is completed.
   * Terminal +ve, -ve NEVER interchange! Lith Battery can be very dangerous
 
@@ -70,7 +70,7 @@ Here I use Quadrocopter, X mode
   * Not only Check each pin!
   * Also Check which channel is AIL, ELE, THR, ROD!
 
-IT WONT WORK IF ANY STEP ABOVE GO WRONG
+*IT WONT WORK IF ANY STEP GO WRONG*
 
 
 == 2. Connect 4 ESCs to KK board ==
@@ -101,7 +101,7 @@ IT WONT WORK IF ANY STEP ABOVE GO WRONG
 
 === 2. set YAW gain to minimal (0%), CLOCKWISE!!! ===
 
-=== 3. Put throttle stick to Full (100%) and turn on the transmitter.
+=== 3. Put throttle stick to Full (100%) and turn on the transmitter ===
 
 === 4. Power up the quadrocopter (receiver and kk board).===
 You will hear 3 beeps from ESCs and it beeps continuously with 3 states.
@@ -113,12 +113,7 @@ When the state is "beep beep", Put throttle stick to 0%.
 
 You will hear beep to confirm the choice.
 
-=== 5. Restart and try to Arm you KK board.
+=== 5. Restart and try to Arm you KK board. ===
 
 = Arming / Unarming =
 <wiki:video url="http://www.youtube.com/watch?v=YoFoFq6s47w" />
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
