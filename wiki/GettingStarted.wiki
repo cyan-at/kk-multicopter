@@ -104,8 +104,16 @@ IT WONT WORK IF ANY STEP ABOVE GO WRONG
 === 3. Put throttle stick to Full (100%) and turn on the transmitter.
 
 === 4. Power up the quadrocopter (receiver and kk board).===
+You will hear 3 beeps from ESCs and it beeps continuously with 3 states.
+  * beep
+  * beep beep
+  * beep beep beep
 
+When the state is "beep beep", Put throttle stick to 0%.
 
+You will hear beep to confirm the choice.
+
+=== 5. Restart and try to Arm you KK board.
 
 = Arming / Unarming =
 <wiki:video url="http://www.youtube.com/watch?v=YoFoFq6s47w" />
