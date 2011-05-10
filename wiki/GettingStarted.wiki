@@ -1,26 +1,114 @@
-#summary start right now!
+#summary Start Right Now!
 
 = Introduction =
 
 Get the KKmulticontroller v5.5?
 then start to play with it by following this guide.
 
+
+
+
 = Before you start =
 
-Please understand that it takes time and efforts to complete the whole setting. Do not suspect your KK board is defective unless you have already did a number of serious tests.
+Please understand that it takes time and efforts to complete the whole setting. Do not suspect your KK board is defective unless you are really sure.
+
+
+
 
 = What you need =
-  * 1 KKmulticontroller v5.5
-  * 1 Radio System(at least 4 channels)
-  * 4 ESC
+|| *Name* || *Quantity* || *Remarks* ||
+|| KKmulticontroller || 1 || v5.5 ||
+|| Radio System || 1 || At least 4 channels ||
+|| ESC || -> || depends(tri/quad/hex/other) ||
+|| Motors || -> || depends(tri/quad/hex/other) ||
+|| Frame || 1 || - ||
+|| Blade|| -> || depends(tri/quad/hex/other) ||
+|| Battery || 1 || - ||
+|| Chargwe || 1 || - ||
 
 
+
+
+== Example configuration and price for reference ==
+  * KKmulticontroller v5.5
+  * WFLY 6 channels 2.4GHz Radio System
+  * XXD 30A ESCs
+  * XXD A2212 1000kV Motors
+  * Full Glass-Fiber Quadcopter Frame
+  * 1045 blades
+  * ACE 11.1V 2200mAh 25C Lith Battery
 
 <img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/ctrlboard.png" width=200 height=148 >
 <img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/rec.jpg width=200 height=148 >
 <img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/trans.jpg width=200 height=148 >
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/escnmotor.jpg width=200 height=148 >
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/1045.jpg width=200 height=148 >
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/lcq400.jpg width=200 height=148 >
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/ace.jpg width=200 height=148 >
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/rc301.jpg width=200 height=148 >
 
-= Details =
+
+
+= FOR SAFETY, READ it =
+  * DO NOT install blades unless setting is completed.
+  * Terminal +ve, -ve NEVER interchange! Lith Battery can be very dangerous
+
+
+= What is what =
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/clarboard.jpg>
+
+
+= Test the KK board =
+Please load the firmware you need. You could refer to firmware transfer wiki page for more details.
+
+Here I use Quadrocopter, X mode
+  * Firmware: KKXcopter 1.0 Quad Firmware by Minsoo Kim
+
+== 1. Connect receiver to KK board ==
+  * Make sure the direction is correct!
+  * `[`Signal Vcc Gnd`]` or `[`Gnd Vcc Signal`]` ? DOUBLE CHECK IT!
+  * Not only Check each pin!
+  * Also Check which channel is AIL, ELE, THR, ROD!
+
+IT WONT WORK IF ANY STEP ABOVE GO WRONG
+
+
+== 2. Connect 4 ESCs to KK board ==
+  * Make sure the direction is correct!
+  * `[`Signal Vcc Gnd`]` or `[`Gnd Vcc Signal`]` ? DOUBLE CHECK IT!
+  * Not only Check each pin!
+  * Also Check which channel is which motor! It depends on which firmware you use!
+
+== 3. Setting transmitter channels ==
+
+|| *CHANNEL* || *Aileron* || *Elevator* || *Throttle* || *Rudder* ||	
+|| JR/SPEKTRUM || REVERSE || REVERSE || NORMAL || REVERSE || 
+|| WFLY/FUTABA || NORMAL || NORMAL || REVERSE || NORMAL || 
+|| HITEC || NORMAL || REVERSE || NORMAL || NORMAL || 
+|| Others || ? || ? || ? ||  	 	 	 
+
+- Make sure you do not have any mixing switches on your Transmitter enabled.
+
+IT WONT WORK IF ANY STEP ABOVE GO WRONG
+
+
+
+== 4.Stick Centering ==
+
+
+=== 1. set all to middle (50%)===
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/getting%20started/centering.jpg>
+
+=== 2. set YAW gain to minimal (0%), CLOCKWISE!!! ===
+
+=== 3. Put throttle stick to Full (100%) and turn on the transmitter.
+
+=== 4. Power up the quadrocopter (receiver and kk board).===
+
+
+
+= Arming / Unarming =
+<wiki:video url="http://www.youtube.com/watch?v=YoFoFq6s47w" />
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
