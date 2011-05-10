@@ -4,7 +4,7 @@
 
 Get the KKmulticontroller v5.5?
 then start to play with it by following this guide.
-
+`*`Please understand that this guide is written to supplement the official manual of KKmulticontroller board. Take your own risks!
 
 
 
