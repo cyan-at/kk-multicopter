@@ -1,6 +1,24 @@
-#summary Transferring the firmware/configuration to the Ctrl board.
+#summary Guidelines to transfer a firmware to the KKMulticontroller board.
 
-= Summary =
+
+
+= What you need =
+notice that power is supplied directly from the AVR programmer. No external power supply is required.
+
+
+== Hardware ==
+  * AVR USB Programmer *1
+  * 10p-6p Cable *1
+
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/firmware%20transfer/4.jpg" width=320 height=240>
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/firmware%20transfer/5.jpg" width=320 height=240>
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/firmware%20transfer/1.jpg" width=320 height=240>
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/firmware%20transfer/2.jpg" width=320 height=240>
+<img src="http://dl.dropbox.com/u/23905563/projects/copter/wiki/firmware%20transfer/3.jpg" width=320 height=240>
+
+== Software ==
+  * kk flashtool
+
 Please visit [http://lazyzero.de/en/modellbau/kkmulticopterflashtool kk flash tool] flashing tutorial.
 
 
