@@ -22,7 +22,11 @@ notice that power is supplied directly from the AVR programmer. No external powe
 Please visit [http://lazyzero.de/en/modellbau/kkmulticopterflashtool kk flash tool] flashing tutorial.
 
 Demo Video on WinXp
-<wiki:video url="http://www.youtube.com/watch?v=CoaV_h7XSRE"/>
+
+<wiki:video url="http://www.youtube.com/watch?v=CoaV_h7XSRE" />
+
+Demo Video on Mac from Die Molls
+<wiki:video url="http://www.youtube.com/watch?v=qhwIkf1620E" />
 
 = Download Firmware =
 
