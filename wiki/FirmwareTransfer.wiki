@@ -62,6 +62,8 @@ For Windows: http://www.fischl.de/usbasp/
 Confirm the direction!
 = 5. set options =
 choose "usbasp", "blackboard", and the firmware you need.
-= 6. click force flashing =
-= 7. Program it =
+= 6. Program it =
 Watch the Demo Video on WinXp for step by step tutorials
+
+= Debug/Problem/Error = 
+If you see your device signature = 0x1e940b while expected signature = 1E 94 06, you should tick FORCE FLASHING. (device id of atmega168 & atmega168pa)
