@@ -31,13 +31,31 @@ According to the firmware [http://www.kkmulticopter.com/index.php?option=com_con
 Download the one you need.
 MCU of the black version is atmega168.
 
+Skip this part "Download Firmware" if you use kkmulticopterflashtool.
+
+(kkmulticopterflashtool does not require users download firmware manually)
+
 
 = Download flash tool  =
 
-kkmulticopterflashtool is recommended
+kkmulticopterflashtool is highly recommended
 Benefits :
   * No need to set fuses
+  * No need download firmware manuanlly
   * Compatible with almost all USBASP
   * Support Mac OSX, Linux and Windows
 
 [http://lazyzero.de/en/modellbau/kkmulticopterflashtool Download here]
+
+
+= 1. connect the usbasp adapter =
+= 2. install the usbasp driver (if not installed) =
+For Windows: http://www.fischl.de/usbasp/
+= 3. run the kk flash tool (.cmd) =
+= 4. connect to kk board =
+Confirm the direction!
+= 5. set options =
+choose "usbasp", "blackboard", and the firmware you need.
+= 6. click force flashing =
+= 7. Program it =
+Watch the Demo Video on WinXp for step by step tutorials
